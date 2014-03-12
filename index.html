@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="bitcoin.css">
+  </head>
+
+  <body>
+    <div id="outer">
+      <div class="stats">
+	<div id="earned">Minted: <span id="coins"></span></div>
+	<div id="clock"></div>
+	<div id="clicks"></div> 
+      </div>
+      <div id="transactions">
+	<!--
+	<div style="float:right;">Choose transactions:</div>
+	<br />
+	-->
+	<span class="fancy">Transactions</span>
+	<table id="myTable">
+	</table>
+
+	<div class="simple big">+</div>
+
+	<span class="fancy">Nonce</span>
+
+	<br />
+
+	<input type="text" id="nonce" />
+      </div>
+	<br />
+      <div id="controls">
+	<input type="checkbox" id="reuseHash">Use last hash as nonce</input>
+	<br />	<br />
+	<button id="hashButton">Generate Hash</button>
+      </div>
+      <div id="result" class="simple">
+      </div>
+    </div>
+
+    <script src="jquery-2.0.3.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"></script>
+    <script type="text/javascript" src="application.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-4496761-3', 'donnyw.com');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

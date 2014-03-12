@@ -1,0 +1,52 @@
+#transactions {
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14pt;
+    font-family: Courier New;
+    border: 2px dashed;
+}
+.stats {
+    float: left;
+    font-family: Courier New;
+    font-size: 16pt;
+}
+.fancy {
+    font-family: Arial, Helvetica;
+}
+.simple {
+    font-family: Courier New;
+}
+.big {
+    font-size: 30pt;
+}
+#result {
+    width: 61ch;
+    height: 40px;
+    margin: 0px auto;
+    text-align: left;
+}
+#controls {
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+}
+input[type="text"] {
+    width: 61ch;
+}
+table {
+    width: 100%
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    width: 550px;
+}
+.selected {
+    background-color: #40731A;
+}
+#choose {
+    float: right;
+}
